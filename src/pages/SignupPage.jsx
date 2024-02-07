@@ -42,7 +42,7 @@ const SignupPage = () => {
                         <button className='bg-white rounded-lg flex items-center gap-2 p-1 md:py-0 py-3 px-2 '><FaApple /> Sign in with Apple</button>
                     </div>
                     <Form />
-                    <p className='text-center mt-5 md:block flex flex-col gap-4'>Already have an account? <a href="/login" className='text-blue-600'>Login here</a></p>
+                    <p className='text-center mt-5 md:block flex flex-col gap-4'>Already have an account? <a href="/" className='text-blue-600'>Login here</a></p>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ const LoginPage = () => {
             .then((data) => {
                 setValue(data.user.email);
                 localStorage.setItem("email", data.user.email);
-                navigate("/");
+                navigate("/dashboard");
             })
             .catch((error) => {
                 console.error("Error signing in with Google:", error);
