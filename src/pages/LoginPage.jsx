@@ -41,7 +41,7 @@ const LoginPage = () => {
             <div className='flex md:flex-row flex-col  '>
                 <div className='md:w-2/5 w-full md:h-screen h-20 z-50 md:bg-transparent  bg-blue-400'>
                     <nav className='p-5 md:block flex items-center gap-4'>
-                        <img src={logo} className='w-10' /> <span className='font-bold text-4xl'>BASE</span>
+                        <img src={logo} className='w-10' /> <span className='font-bold text-4xl md:hidden'>BASE</span>
                     </nav>
                     <div className='mt-24 flex flex-col justify-center items-center gap-80'>
                         <div className=' text-white font-bold flex-col justify-center items-center text-7xl '>
@@ -56,13 +56,13 @@ const LoginPage = () => {
                     </div>
                 </div>
 
-                <div className='md:w-3/5 w-full h-screen flex md:justify-center md:items-center md:pt-0 pt-[100px] md:p-0 p-10 '>
+                <div className='md:w-3/5 w-full h-screen flex md:justify-center md:items-center md:pt-0 pt-[100px] md:p-0 p-4 '>
                     <div className=''>
                         <div>
                             <h1 className='text-4xl font-bold pb-5'>Sign In</h1>
                             <p className='text-xl'>Sign in to your account</p>
                         </div>
-                        <div className='flex justify-between gap-4 text-black my-6'>
+                        <div className='flex justify-between md:gap-4 gap-2 text-black my-6'>
                             <button className='bg-white rounded-lg  flex items-center md:gap-2 p-1 md:py-0 py-3 px-2 cursor-pointer' onClick={handleClick}><img src={google} /> Sign in with Google</button>
                             <button className='bg-white rounded-lg flex items-center md:gap-2 p-1 md:py-0 py-3 px-2 '><FaApple /> Sign in with Apple</button>
                         </div>
